@@ -11,6 +11,7 @@ import {Toaster} from 'react-hot-toast';
 import Home from './pages/Home';
 import About from './pages/About US/About';
 import SponsorCrausal from './pages/sponser/SponerCrausal';
+import Gallery from './pages/Gallery/Gallery';
 import Contact from './pages/Contact/Contact';
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/sponser" element={<SponsorCrausal />} />
+                <Route path="/gallery" element={<Gallery />} />
                 <Route path="/contact" element={<Contact />} />
               </Routes>
               <Toaster/>
